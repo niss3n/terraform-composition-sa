@@ -5,7 +5,14 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: Running Azure pipeline!
+- script: echo Hello, World!
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: '$(Build.BinariesDirectory)'
+    includeRootFolder: true
+    archiveType: 'tar'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    replaceExistingArchive: true
   displayName: 'Run a one-line script'
 
 - script: |
