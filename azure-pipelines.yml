@@ -1,0 +1,14 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: Running Azure pipeline!
+  displayName: 'Run a one-line script'
+
+- script: |
+    echo To add more tasks
+    echo See https://aka.ms/yaml
+  displayName: 'Run a multi-line script'
