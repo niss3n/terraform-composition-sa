@@ -1,3 +1,6 @@
 [submodule "terraform-module-rg"]
 	path = terraform-module-rg
 	url = https://github.com/bigTimeBrad/terraform-module-rg.git
+[submodule "terraform-module-sa"]
+	path = terraform-module-sa
+	url = https://github.com/bigTimeBrad/terraform-module-sa.git
