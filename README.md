@@ -1,3 +1,6 @@
+
+[![Build Status](https://dev.azure.com/bigbradtime/Terraform/_apis/build/status/bigTimeBrad.terraform-composition-sa?branchName=master)](https://dev.azure.com/bigbradtime/Terraform/_build/latest?definitionId=5&branchName=master)
+
 ## What does this Composition do?
 
 This *composition* is a file what will be made up using multiple modules.
