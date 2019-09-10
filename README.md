@@ -1,5 +1,4 @@
-
-[![Build Status](https://dev.azure.com/bigbradtime/Terraform/_apis/build/status/bigTimeBrad.terraform-composition-sa?branchName=master)](https://dev.azure.com/bigbradtime/Terraform/_build/latest?definitionId=5&branchName=master)
+[![Build Status](https://dev.azure.com/bigbradtime/Terraform/_apis/build/status/Terraform-Open%20Source?branchName=master)](https://dev.azure.com/bigbradtime/Terraform/_build/latest?definitionId=6&branchName=master)
 
 ## What does this Composition do?
 
